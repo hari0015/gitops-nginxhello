@@ -6,7 +6,6 @@ metadata:
   annotations:
     fluxcd.io/ignore: "false"
 spec:
-  serviceAccount: mysvcaccount1
   chart:
     git: ssh://git@github.com/hari0015/gitops-nginxhello.git
     path: helm/chart
